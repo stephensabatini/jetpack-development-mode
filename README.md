@@ -1,6 +1,6 @@
 # Jetpack Development Mode
 
-A WordPress plugin to activate **Jetpack Development Mode**. Allows you to use features that do not require a connection to WordPress.com servers can be activated on a localhost WordPress installation for testing.
+A WordPress plugin to activate **Jetpack Development Mode**. It allows you to use features that do not require a connection to WordPress.com servers that can be activated on a localhost WordPress installation for testing.
 
 
 ![Support Level](https://img.shields.io/badge/support-active-brightgreen.svg)
