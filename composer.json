@@ -1,0 +1,34 @@
+{
+	"name": "stephensabatini/jetpack-development-mode",
+	"description": "A WordPress plugin to activate Jetpack Development Mode. Allows you to use features that do not require a connection to WordPress.com servers can be activated on a localhost WordPress installation for testing.",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Stephen Sabatini",
+			"email": "info@stephensabatini.com",
+			"homepage": "https://stephensabatini.com",
+			"role": "developer"
+		}
+	],
+	"readme": "README.md",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.2"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "*",
+		"phpcompatibility/php-compatibility": "*",
+		"phpcompatibility/phpcompatibility-wp": "*",
+		"phpcsstandards/phpcsdevtools": "*",
+		"phpunit/phpunit": "*",
+		"squizlabs/php_codesniffer": "*",
+		"wp-coding-standards/wpcs": "*"
+	},
+	"scripts": {
+		"lint": "./vendor/bin/phpcs .",
+		"format": "./vendor/bin/phpcbf .",
+		"verify": "composer validate --no-check-all --no-check-publish --strict"
+	}
+}
