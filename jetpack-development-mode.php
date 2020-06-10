@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Jetpack Development Mode
  * Plugin URI: https://github.com/stephensabatini/jetpack-development-mode
- * Description: A WordPress plugin to activate Jetpack Development Mode. Allows you to use features that do not require a connection to WordPress.com servers can be activated on a localhost WordPress installation for testing.
+ * Description: A WordPress plugin to activate Jetpack Development Mode. It allows you to use features that do not require a connection to WordPress.com servers that can be activated on a localhost WordPress installation for testing.
  * Version: 1.0.0
  * Author: Stephen Sabatini <info@stephensabatini.com>
  * Author URI: https://stephensabatini.com
